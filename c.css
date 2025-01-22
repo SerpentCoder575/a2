@@ -845,8 +845,8 @@ height: calc(100vh + 70px);
     grid-template-columns: 1fr 1fr; 
  gap: 1em; 
     width: 100%; 
- margin-left: 0;
-    margin-right: 0;
+ margin-left: 5%;
+    margin-right: 5%;
   }
 
   .c3-4-1 {
@@ -860,6 +860,55 @@ height: calc(100vh + 70px);
     width: 100%; 
   
   }
+
+.c1-2{      
+
+  font-family: Quicksand;
+font-size: 50px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+.c2-3-1,.c2-3-2,.c2-3-3{
+  margin-left: 8%;
+  width: 95vw;
+}
+
+
+
+
+
+
+.c1-3{
+
+ 
+
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+
+
+
+
+}
+
+
+.c1-4{
+
+
+width: 140px;
+height: auto;
+ 
+  border-radius: 8px;
+}
+
 
   .c3-4-1-1, 
   .c3-4-1-2 {
