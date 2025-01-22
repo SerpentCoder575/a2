@@ -994,6 +994,7 @@ width: 88px;
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
+   
     padding: 0; 
     margin-top: 0; 
     box-sizing: border-box; 
@@ -1002,9 +1003,8 @@ width: 88px;
 
  
 
-
 .c4-1,.c4-2 {
-   margin-left: -5%;
+   margin-left: 10px;
     position: static; 
     
     margin: 0;
@@ -1013,22 +1013,30 @@ width: 88px;
 
 .c4-20{
 
-  margin-right: 100%;
+margin-right: 100%;
+
 }
 
 
+.c4-11{
+  margin-left: 7%;
+}
 
   .c4-12 {
+   
     font-size: 32px; 
   }
 
   .c4-13 {
+
+    margin-left: 7%;
     font-size: 1em;
     line-height: 1.375em;
   }
 
   .c4-22 {
     font-size: 1.3em;
+    margin-left: 7%;
   }
 
   .c4-23 {
@@ -1036,14 +1044,14 @@ width: 88px;
   }
 
   .c4-3 {
-    justify-content: center;
+    margin-left: 60px;
+    display: flex;
     
-    gap:0;
-    width: 100%;
+    
   }
 
   .k1 {
-    margin-right: 20%;
+    margin-left: 7%;
     font-size: 20px; 
   }
 } 
