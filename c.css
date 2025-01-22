@@ -748,28 +748,29 @@ list-style: none;
 
 .c0{
 
-margin-left: 3.3%;
+margin-left: 0;
 
 box-sizing: border-box;
 
 border: 0.031em solid rgb(254, 163, 1);
 width: 100%; 
 display: flex;
-justify-content: space-between;
-margin-bottom: 0.938em;
+justify-content: center;
+margin-bottom: 0;
 
 }
 
 
-.c00{
+.c00 {
   display: flex;
-  justify-content: space-between;
+  align-items: left;
+  width: 100%; 
 }
 
 
 .menu{
+  margin: 0 auto;
 
-margin-right: 10px;
 margin-top: 15px;
 display: block;
  
@@ -780,10 +781,10 @@ display: block;
 .c1{
    display: flex;
   flex-direction: column-reverse;
-  margin-left: 5.3%; 
+ 
   align-items: center;
   width: 100%;
-
+margin: 0;
 }
 
 
@@ -802,7 +803,7 @@ display: block;
 
 
 .c2{
-  margin-left: 5.3%;
+  margin-left: 0;
   width: 100%;
   
 }
@@ -811,11 +812,12 @@ display: block;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-left: 2%;
+margin-left: 0;
+width: 100%;
 }
 
 .c2-3-1, .c2-3-2,.c2-3-3  {
-margin-left: 0;
+margin: 0;
 width: 100%;
 
 }
@@ -823,10 +825,10 @@ width: 100%;
 .c3 {
 
   position: relative;
-/* margin-left: 1.7%; */
+
 
 padding: 0;
-width: 100vw;
+width: 100%;
 height: calc(100vh + 70px);
  display: flex;
   flex-direction: column;
@@ -842,7 +844,7 @@ height: calc(100vh + 70px);
  display: grid;
     grid-template-columns: 1fr 1fr; 
  gap: 1em; 
-    width: 80%; 
+    width: 100%; 
  margin-left: 0;
     margin-right: 0;
   }
@@ -850,13 +852,13 @@ height: calc(100vh + 70px);
   .c3-4-1 {
   position: relative;
 
-    border-radius: 1em;
+    border-radius: 0.5em;
     background: rgb(255, 255, 255);
      
-
+     margin: 0;
     text-align: center;
     width: 100%; 
-  height: auto;
+  
   }
 
   .c3-4-1-1, 
@@ -937,13 +939,13 @@ width: 88px;
 
   .c4 {
     position: relative;
-    width: 100vw;
-    height: calc(100vh + 40px); 
+    width: 100%;
+    height:auto; 
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0px 0px 0px 21px;
    
+   padding: 0;
   }
 
 
@@ -953,7 +955,8 @@ width: 88px;
 .c4-1,.c4-2 {
    
     position: static; 
-    margin: 0.9em 0; 
+    
+    margin: 0;
     width: 100%; 
   }
 
@@ -983,14 +986,16 @@ width: 88px;
 
   .c4-3 {
     justify-content: center;
-    gap: 15px; 
+    
+    gap:0;
+    width: 100%;
   }
 
   .k1 {
     margin-right: 20%;
     font-size: 20px; 
   }
-}
+} 
 
 
 
