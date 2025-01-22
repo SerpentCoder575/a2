@@ -1,16 +1,18 @@
+/* 
+*{
+  border: 1px solid red;
+}
+
+body{
+  border:2px dashed green;
+} */
+
+
 .c2{
   background-image: url(assets/bg.png);
 
 }
 
-.c3{
-  height: 1100px;
-  display: flex;
-  flex-direction: column;
-
-
-background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-}
 
 
 .c0{
@@ -88,7 +90,7 @@ text-align: left;
 
   border-radius: 12px;
  
-  /* Orange */
+ 
   background: rgb(254, 163, 1);
 
   color: rgb(255, 255, 255);
@@ -99,6 +101,12 @@ line-height: 30px;
 letter-spacing: 0%;
 text-align: center;
 }
+
+
+.menu{
+  display: none;
+}
+
 
 
 .c1{
@@ -142,8 +150,8 @@ text-align: left;
 }
 
 .c1-4{
-  width: 197px;
-  height: 50px;
+  width: 12.313em;
+  height: 3.125em;
 
   color: rgb(255, 255, 255);
 font-family: Quicksand;
@@ -190,7 +198,7 @@ text-align: center;
 }
 .c2-3-1{
   
-  
+  padding: 36px 28px 36px 28px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -205,7 +213,7 @@ text-align: center;
 }
 
 .c2-3-2{
-
+  padding: 36px 28px 36px 28px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -221,7 +229,7 @@ text-align: center;
 
 
 .c2-3-3{
-
+  padding: 36px 28px 36px 28px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -264,7 +272,7 @@ letter-spacing: 0%;
   display: block;
   margin: 0 auto;
   width: 100%; 
-  max-width: 200px; 
+  max-width: 12.5em; 
    
 }
 
@@ -307,12 +315,13 @@ letter-spacing: 0%;
 }
 
 .c2-4{
-  width: 130px;
-  height: 60px;
+  width: 8.125em;
+  height: 3.75em;
 
-  margin-top: 80px;
-margin-left: 890px;
-  
+  margin-top: 5em;
+
+  margin-left: 55.625em;
+
 }
 
 
@@ -338,9 +347,29 @@ text-align: center;
 background: rgb(254, 163, 1);
 }
 
-.c3-1{
+
+.c3{
+  width:100vw;
+  height: 100vh;
+  
+
+  display: flex;
+  flex-direction: column;
+
+
+background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+background-size: cover;
 
 }
+
+
+.c3-4{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 19px;
+  row-gap: 19px;
+}
+
 
 .c3-11{
 
@@ -379,38 +408,33 @@ row-gap: 19px;
 background: url(),rgb(255, 255, 255);
 }
 
-.c3-4{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 19px;
-  row-gap: 19px;
-}
+
 
 .c3-4-1{
 
-  max-width: 290.69px;
-max-height: 301.61px;
+  max-width: 18.168em;
+max-height: 18.851em;
 
-  border-radius: 16px;
+  border-radius: 1em;
 
   background: rgb(255, 255, 255);
 }
 
 .c3-4-1-1{
-  width: 291px;
-  height: 177px;
+  width: 18.188em;
+  height: 11.063em;
   border-radius: 16px 16px 0px 0px;
 
-background: url(),rgb(255, 255, 255);
+background:rgb(255, 255, 255);
 }
 
 .c3-4-1-2{
-  width: 291px;
-  height: 182px;
+  width: 18.188em;
+  height: 11.375em;
 
   border-radius: 16px 16px 0px 0px;
 
-background: url(),rgb(255, 255, 255);
+background:rgb(255, 255, 255);
 }
 
 .h0-1{
@@ -574,19 +598,23 @@ text-transform: capitalize;
 
 .c3-5{
 
+position: relative;
+top: 14px;
+  background: url(assets/bg.png);background-color: rgba(254, 163, 1, 0.3);
+  
   text-align: center;
   
 }
 
 
 .fb{
+  
+  width: 12.313em;
+  height: 3.125em;
+margin-top: 5em;
+margin-bottom: 5em;
+  border-radius: 0.75em;
 
-  width: 197px;
-  height: 50px;
-margin-top: 80px;
-  border-radius: 12px;
-
-/* Black */
 background: rgb(17, 17, 17);
 
   color: rgb(255, 255, 255);
@@ -600,13 +628,19 @@ text-align: center;
 
 
 .c4{
- display: flex;
- justify-content: space-evenly;
+  width: 100vw;
+  margin-top: 14%;
+  
+display: flex;
+justify-content: center;
 
-  background: rgb(1, 253, 43);
+  background:rgb(254, 163, 1);
 }
 
 .c4-1{
+  position: relative;
+  left: -200px;
+
   margin-top: 110px;
   margin-bottom: 100px;
 }
@@ -618,6 +652,8 @@ text-align: center;
 }
 
 .c4-20{
+  position: relative;
+  left: 100px;
   margin-top: 110px;
   margin-bottom: 100px;
 
@@ -695,6 +731,220 @@ display: flex;
 gap: 10px;
 list-style: none;
 }
+
+
+@media only  screen   and (max-width:576px) {
+  
+
+
+
+.c0-11, .c0-2,.c2-4, .c3-3, .c0-0 {
+  display: none;
+
+}
+
+
+
+
+.c0{
+
+margin-left: 5%;
+
+box-sizing: border-box;
+border: none;
+border: 0.031em solid rgb(254, 163, 1);
+width: 100%; 
+display: flex;
+justify-content: space-between;
+margin-bottom: 0.938em;
+
+}
+
+
+.c00{
+  
+}
+
+
+.menu{
+
+margin-right: 10px;
+margin-top: 15px;
+display: block;
+ 
+
+}
+
+
+.c1{
+   display: flex;
+  flex-direction: column-reverse;
+  margin-left: 6%; 
+  align-items: center;
+  width: 100%;
+
+}
+
+
+
+.c1-1{
+
+  margin-top: 0;
+  text-align: center;
+  
+
+}
+
+.c1-4 {
+  margin-top: 20px; 
+}
+
+
+.c2{
+  margin-left: 10%;
+  width: 100%;
+  
+}
+
+.c2-3{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 2%;
+}
+
+.c2-3-1, .c2-3-2,.c2-3-3  {
+margin-left: 0;
+width: 100%;
+
+}
+
+.c3 {
+margin-left: 4%;
+padding: 0;
+width: 100vw;
+height: auto;
+ display: flex;
+  flex-direction: column;
+    align-items: center;
+ background: url(assets/bg.png),
+    linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    background-size: cover;
+ background-position: center;
+  }
+
+  .c3-4 {
+ display: grid;
+    grid-template-columns: 1fr 1fr; 
+ gap: 3em; 
+    width: 80%; 
+ margin-left: 0;
+    margin-right: 3%;
+  }
+
+  .c3-4-1 {
+  position: relative;
+
+    border-radius: 1em;
+    background: rgb(255, 255, 255);
+     padding: 1em;
+
+    text-align: center;
+    width: 100%; 
+  height: auto;
+  }
+
+  .c3-4-1-1, 
+  .c3-4-1-2 {
+    width: 100%; 
+
+    height: auto; 
+    border-radius: 10px;
+  }
+
+  .h0 {
+    font-size: 1rem;
+    margin-top: 0.5em;
+  }
+
+  .bt-1, .bt-2, .bt-3, .bt-4 {
+    font-size: 0.9rem;
+
+    margin: 0.5em 0;
+  }
+
+  .c3-5 {
+    background: none;
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  .fb {
+    font-size: 1rem;
+    padding: 0.8em 1.2em;
+    border: none;
+
+    border-radius: 0.5em;
+    background-color: rgb(20, 20, 19);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .c4 {
+
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+  }
+
+
+
+.c4-1,.c4-2 {
+   
+    position: static; 
+    margin: 15px 0; 
+    width: 100%; 
+  }
+
+.c4-20{
+
+  margin-right: 100%;
+}
+
+
+
+  .c4-12 {
+    font-size: 32px; 
+  }
+
+  .c4-13 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .c4-22 {
+    font-size: 20px;
+  }
+
+  .c4-23 {
+    font-size: 16px;
+  }
+
+  .c4-3 {
+    justify-content: center;
+    gap: 15px; 
+  }
+
+  .k1 {
+    margin-right: 20%;
+    font-size: 20px; 
+  }
+}
+
+
 
 
 
